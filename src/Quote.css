@@ -1,0 +1,33 @@
+body {
+  background-image: url("https://source.unsplash.com/1600x900/?colorful");
+}
+
+.b-none {
+  text-align: center;
+  border: none;
+  height: 50px;
+  width: 150px;
+  margin-top: 20px;
+}
+
+.b-none:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.quote {
+  font-size: 60px;
+  margin-top: 250px;
+  font-family: cursive;
+  color: purple;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.author {
+  font-size: 40px;
+  margin-top: -30px;
+  font-family: fantasy;
+  color: blue;
+  font-style: italic;
+}
